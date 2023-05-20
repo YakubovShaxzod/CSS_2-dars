@@ -1,0 +1,52 @@
+body{
+    background-color: lightcoral;
+    background-image: url("../foto/tabiat.jfif");
+    background-repeat: no-repeat;/* repeat,no-repeat,repeat-x,repeat-y */
+    background-size: 50%; /* %,px,*cover*/
+    background-position: center 250px; /* x(left,center,right),y(top, center,bottom) */
+    /* css cide => property; value */
+}
+.text{
+    color: white;
+    border: 5px solid white;/* solid,dashed,dotted,double,groove,ridge,outset,inset */
+    /*border-top-width: 6px;*/
+    /*border-right-width: 8px;*/
+    /*border-bottom-width: 9px;*/
+    /*border-left-width: 4px;*/
+    /*border-top-style:double ;*/
+    /*border-right-style: dotted;*/
+    /*border-left-style: groove;*/
+    /*border-bottom-style: dashed;*/
+    /*border-top-color: green;*/
+    /*border-bottom-color: aqua;*/
+    /*border-left-color: black;*/
+    /*border-top-color: blue;*/
+    text-align: left;/*left(default - dastlabki holat),center,right,justify*/
+    text-transform: none;/*none (default - dastlabki holat),lowercase,uppercase,capitalize*/
+    text-decoration: none;/* none (default - dastlabki holat),underline,overline*/
+    letter-spacing: 5px;/*matindagi holat orasini ochib beradi*/
+    word-spacing: 12px;/*matindagi sozlar orasini ochib beradi*/
+    line-height: 25px;/*matindagi qatorlar orasini ochib beradi*/
+}
+
+.block{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    /*min-width: 50px;*/
+    /*min-height: 50px;*/
+    /*max-width: 500px;    */
+    /*max-height: 150px;*/
+    /*margin: 200px 650px;*/
+    /*margin-top: 50px;*/
+    /*margin-right: 150;*/
+    /*margin-bottom: 25px;*/
+    /*margin-left: 10px;*/
+    margin: 140px auto;
+    padding: 50px 100px 50px 100px;
+    /*padding-top: 150px;*/
+    /*padding-right: 100px;*/
+    /*padding-left: 200px;*/
+    /*padding-bottom: 50px;*/
+    box-sizing: border-box;
+}
